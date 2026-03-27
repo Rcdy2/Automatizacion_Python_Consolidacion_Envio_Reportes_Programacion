@@ -19,7 +19,7 @@ Este proyecto consiste en un script desarrollado en Python que automatiza el pro
 ## Tipos de Correos Generados
 El sistema utiliza plantillas personalizadas según el tipo de destinatario, que se definen en el archivo de destinatarios.
 Correo tipo Programación: Diseñado para el personal administrativo y de programación. Incluye el reporte consolidado completo de todas las sedes con la información detallada de programación.
-
+![](iconos/correoprogramacion.png)
 Correo tipo Guardia: Orientado al personal de seguridad y guardia. Incluye el reporte específico de programación para el personal de guardia.
-
+![](iconos/correoguardia.png)
 Ambas plantillas son completamente personalizables desde el archivo plantillas_correo.py, donde se puede modificar el texto, asunto y estructura según los requerimientos, en este caso se aplicaron formatos basicos.
