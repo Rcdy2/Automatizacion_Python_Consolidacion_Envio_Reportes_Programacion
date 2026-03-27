@@ -25,3 +25,44 @@ El sistema utiliza plantillas personalizadas según el tipo de destinatario, que
 - Correo tipo Guardia: Orientado al personal de seguridad y guardia. Incluye el reporte específico de programación para el personal de guardia.
 ![](iconos/correoguardia.png)
 Ambas plantillas son completamente personalizables desde el archivo plantillas_correo.py, donde se puede modificar el texto, asunto y estructura según los requerimientos, en este caso se aplicaron formatos basicos.
+
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Módulo / Archivo</th>
+      <th>Responsabilidad</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>main.py</code></td>
+      <td>Orquestador principal: coordina consolidación, carga destinatarios y envía correos</td>
+    </tr>
+    <tr>
+      <td><code>consolidacion.py</code></td>
+      <td>Detecta estructura de archivos Excel, consolida datos y genera versiones numeradas</td>
+    </tr>
+    <tr>
+      <td><code>enviar_email.py</code></td>
+      <td>Construye mensaje con adjunto MIME y envía vía SMTP (Gmail)</td>
+    </tr>
+    <tr>
+      <td><code>config/credentials.py</code></td>
+      <td>Almacena credenciales SMTP para autenticación</td>
+    </tr>
+    <tr>
+      <td><code>config/plantillas_correo.py</code></td>
+      <td>Define plantillas de asunto y cuerpo según tipo de destinatario</td>
+    </tr>
+    <tr>
+      <td><code>config/destinatarios.xlsx</code></td>
+      <td>Lista de correos electrónicos agrupados por tipo (programación/guardia)</td>
+    </tr>
+    <tr>
+      <td><code>datasets/</code></td>
+      <td>Contiene archivos fuente (ProgramacionSede*.xlsx) y consolidados generados (ProgramacionGeneral_*.xlsx)</td>
+    </tr>
+  </tbody>
+</table>
