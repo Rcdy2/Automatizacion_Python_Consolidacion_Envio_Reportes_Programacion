@@ -4,10 +4,10 @@
 Este proyecto consiste en un script desarrollado en Python que automatiza el proceso de consolidación de archivos Excel de programación y el envío masivo de correos electrónicos con el reporte consolidado. La herramienta permite leer múltiples archivos conun mismo formato, consolidarlos en un único archivo, personalizar las plantillas de correo según el tipo de destinatario y enviar los reportes de forma automatizada, generando además un registro de auditoría detallado de cada acción.
 
 **Las 4 tareas principales del sistema:**
-Leer y procesar múltiples archivos Excel de programación desde diferentes sedes
-Consolidar automáticamente los datos en un único archivo
-Personalizar el correo según el tipo de destinatario (programación o guardia)
-Enviar correos con el archivo adjunto y registrar cada acción
+- Leer y procesar múltiples archivos Excel
+- Consolidar automáticamente los datos en un único archivo
+- Personalizar el correo según el tipo de destinatario (programación o guardia)
+- Enviar correos con el archivo adjunto y registrar cada acción
 
 **Capacidad del sistema:**
 - Manejo de archivos Excel con estructuras variables (detección automática de formato)
