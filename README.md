@@ -59,6 +59,10 @@ Con la automatización, todo el proceso se ejecuta con una sola ejecución. El s
 La siguiente comparación evidencia la transformación del proceso, mostrando la reducción de pasos manuales, la eliminación de cuellos de botella y el impacto directo en la eficiencia operativa.
 ![](iconos/automatizacionconsolidacionpython.png)
 
+## Diagrama de Secuencia
+El diagrama de secuencia muestra la interacción temporal entre los componentes del sistema durante la ejecución del proceso de consolidación y envío de reportes.
+![](iconos/DiagramaSecuencia.png)
+
 ## Componentes del Sistema
 <table>
   <thead>
