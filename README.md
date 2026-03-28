@@ -26,8 +26,36 @@ El sistema utiliza plantillas personalizadas según el tipo de destinatario, que
 ![](iconos/correoguardia.png)
 Ambas plantillas son completamente personalizables desde el archivo plantillas_correo.py, donde se puede modificar el texto, asunto y estructura según los requerimientos, en este caso se aplicaron formatos basicos.
 
+## PROBLEMATICA
+En toda organización, la información suele estar dispersa en múltiples archivos. Cada área genera sus propios reportes, y cuando se necesita consolidarlos para enviarlos a diferentes grupos, el proceso se vuelve manual y tedioso.
+Un colaborador debe abrir cada archivo, copiar los datos, pegarlos en uno solo, corregir los errores que surgen al combinar (como números desordenados), sin contar que si son demasiados datos Excel puedo no aguantar haciendo caer a la aplicacion generando mas problemas, luego redactar correos personalizados para cada grupo de destinatarios, verifica que la direccion de los correos es correcta, adjuntar el o los archivos y enviar. Este ciclo se repite periódicamente.
 
+En el sector salud, la programación de personal se gestiona en archivos Excel separados por cada sede. El área de recursos humanos necesita consolidar estos archivos en un reporte único y enviarlo a diferentes grupos de destinatarios (personal de programación general y personal de guardia). Cada grupo requiere un mensaje personalizado.
+Actualmente, una persona dedica entre 20 y 30 minutos dependiendo de la cantidad de archivos a consolidar cada vez que debe realizar esta tarea, con el riesgo constante de que haya errores al combinar los archivos o de enviar el mensaje incorrecto al grupo equivocado.
 
+El proceso manual implica:
+1. Abrir cada archivo de sede 
+2. Copiar y pegar los datos en un archivo consolidado
+3. Corregir la numeración y formatos que quedan desordenados al combinar los archivos
+4. Guardar el archivo consolidado
+5. Redactar los correos personalizados para cada tipo de grupo a enviar los consolidados
+6. Adjuntar el archivo y enviar
+
+Errores que pueden ocurrir en estos procesos manuales:
+- Se pierde tiempo valioso en tareas repetitivas
+- Aparecen errores manuales: números mal ordenados, riesgo de adjuntar archivo incorrecto o enviar a destinatario equivocado, errores en los formatos
+- No queda registro de qué se envió, a quién y cuándo, no existe una auditoria
+- Si la persona encargada falta, este proceso se retrasaa y se detiene
+
+## Proceso Actual (AS-IS)
+El flujo manual actual requiere múltiples intervenciones humanas, cada una con riesgo de error.
+![](iconos/tobeconsolidacionpython.png)
+
+## Proceso Automatizado (TO-BE)
+Con la automatización, todo el proceso se ejecuta con una sola ejecución. El sistema se encarga de la consolidación, versionado, personalización y envío.
+![](iconos/asisconsolidacionpython.png)
+
+## Componentes del Sistema
 <table>
   <thead>
     <tr>
@@ -66,3 +94,4 @@ Ambas plantillas son completamente personalizables desde el archivo plantillas_c
     </tr>
   </tbody>
 </table>
+
