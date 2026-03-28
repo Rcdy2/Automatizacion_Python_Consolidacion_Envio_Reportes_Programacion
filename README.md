@@ -55,6 +55,10 @@ El flujo manual actual requiere múltiples intervenciones humanas, cada una con 
 Con la automatización, todo el proceso se ejecuta con una sola ejecución. El sistema se encarga de la consolidación, versionado, personalización y envío.
 ![](iconos/asisconsolidacionpython.png)
 
+## Comparativa de Procesos: AS-IS vs TO-BE
+La siguiente comparación evidencia la transformación del proceso, mostrando la reducción de pasos manuales, la eliminación de cuellos de botella y el impacto directo en la eficiencia operativa.
+![](iconos/automatizacionconsolidacionpython.png)
+
 ## Componentes del Sistema
 <table>
   <thead>
