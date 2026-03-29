@@ -62,11 +62,11 @@ La siguiente comparación evidencia la transformación del proceso, mostrando la
 ## Arquitectura del Sistema 
 **1. Arquitectura en Capas**
 La arquitectura en capas muestra la organización estructural del sistema, separando claramente las responsabilidades en niveles independientes. Esta separación permite que cada capa pueda modificarse o reemplazarse sin afectar a las demás, facilitando el mantenimiento y la escalabilidad.
-![](iconos/Arquitecturadelsistema.png)
+![](iconos/DiagramaArquitectura.png)
 
 ## Diagrama de Secuencia
 El diagrama de secuencia muestra la interacción temporal entre los componentes del sistema durante la ejecución del proceso de consolidación y envío de reportes.
-![](iconos/DiagramaArquitectura.png)
+![](iconos/DiagramaSecuencia.png)
 
 ## Componentes del Sistema
 <table>
