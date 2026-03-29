@@ -6,4 +6,3 @@ DIRECCION = "Calle 123 #45-67, Lima, Perú"
 URL_PAGOS = "www.miempresa.com/pagos"
 EMAIL_COMPROBANTES = "pagos@miempresa.com"
 
-ICONO_EMPRESA = "icon/empresa1SF.png"
